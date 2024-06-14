@@ -88,3 +88,18 @@ If you're interested in ways to take this demo application further, I'd consider
 Generating entire React components to be rendered, instead of relying on pre-built components. OR: Using the LLM to build custom components using a UI library like [Shadcn](https://ui.shadcn.com/).
 Multi-tool and component usage. Update the LangGraph agent to call multiple tools, and appending multiple different UI components to the client rendered UI.
 Generative UI outside of the chatbot window. Have the UI dynamically render in different areas on the screen. E.g a dashboard, where the components are dynamically rendered based on the LLMs output.
+
+## Acknowledgements
+
+I would like to express sincere gratitude to the following contributors for their invaluable educational contributions and the incredible learning opportunity they have created:
+
+- [LangChain](https://twitter.com/LangChainAI) ([@LangChainAI](https://twitter.com/LangChainAI)) - For providing the powerful language processing capabilities that power this application.
+- [LangGraph](https://github.com/langchain-ai/langgraph) - For the innovative tool that enables the creation of dynamic and interactive generative UI applications.
+- [Developers Digest](https://twitter.com/Dev__Digest) ([@Dev__Digest](https://twitter.com/Dev__Digest)) - For their dedication to fostering a vibrant developer community and sharing valuable insights.
+- [Harrison Chase](https://twitter.com/hwchase17) ([@hwchase17](https://twitter.com/hwchase17)) - For his significant contributions to the LangChain ecosystem and his unwavering commitment to advancing the field of language processing.
+- [Lance Martin](https://twitter.com/RLanceMartin) ([@RLanceMartin](https://twitter.com/RLanceMartin)) - For his tireless efforts in evangelizing and educating developers about the potential of generative AI and UI.
+- [Brace Sproul](https://twitter.com/BraceSproul) ([@BraceSproul](https://twitter.com/BraceSproul)) - For his invaluable contributions to the developer community and his passion for pushing the boundaries of what's possible with generative technologies.
+- [FireCrawl](https://twitter.com/FireCrawl_dev) ([@FireCrawl_dev](https://twitter.com/FireCrawl_dev)) - For providing the powerful web-based data extraction capabilities that enhance the functionality of this application.
+- [Vercel AI](https://twitter.com/Vercel) ([@Vercel](https://twitter.com/Vercel)) - For their brilliant work on the GenUI interface, which provides a seamless and intuitive user experience for interacting with generative AI applications.
+
+Their collective expertise, passion, and dedication have made this educational experience possible for me. I are truly grateful for their contributions and the impact they have made on the AI developer community. Their efforts have not only my skills but have also inspired and empowered developers around the word to explore the exciting possibilities of generative AI and user interfaces.
