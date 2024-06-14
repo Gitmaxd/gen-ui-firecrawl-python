@@ -91,16 +91,18 @@ Generative UI outside of the chatbot window. Have the UI dynamically render in d
 
 ## Acknowledgements
 
-I would like to express sincere gratitude to the following contributors for their invaluable educational contributions and the incredible learning opportunity they have created:
+I would like to express sincere gratitude to the following contributors for their invaluable educational contributions to the community and the incredible learning opportunity they have created:
 
 - [LangChain](https://twitter.com/LangChainAI) ([@LangChainAI](https://twitter.com/LangChainAI)) - For providing the powerful language processing capabilities that power this application.
-- [LangGraph](https://github.com/langchain-ai/langgraph) - For the innovative tool that enables the creation of dynamic and interactive generative UI applications.
-- [Developers Digest](https://twitter.com/Dev__Digest) ([@Dev__Digest](https://twitter.com/Dev__Digest)) - For their dedication to fostering a vibrant developer community and sharing valuable insights.
-- [Harrison Chase](https://twitter.com/hwchase17) ([@hwchase17](https://twitter.com/hwchase17)) - For his significant contributions to the LangChain ecosystem and his unwavering commitment to advancing the field of language processing.
+- [LangGraph](https://github.com/langchain-ai/langgraph) - For the innovative tool that enables the creation of dynamic and interactive cyclical agentic frameworks.
+- [Developers Digest](https://twitter.com/Dev__Digest) ([@Dev__Digest](https://twitter.com/Dev__Digest)) - For his friendship and fostering my vibrant imagination and sharing valuable GenUI insights via OSS ([Answer Engine](https://github.com/developersdigest/llm-answer-engine)).
+- [Harrison Chase](https://twitter.com/hwchase17) ([@hwchase17](https://twitter.com/hwchase17)) - For his significant contributions to the LangChain and greater AI ecosystem and his commitment to advancing the field of natural language processing.
 - [Jacob Lee](https://twitter.com/@Hacubu) ([@Hacubu](https://twitter.com/Hacubu)) - For lighting a fire under my ass to learn Next/JS with all his efforts at LangChain ❤️
-- [Lance Martin](https://twitter.com/RLanceMartin) ([@RLanceMartin](https://twitter.com/RLanceMartin)) - For his tireless efforts in evangelizing and educating developers about the potential of generative AI and UI.
-- [Brace Sproul](https://twitter.com/BraceSproul) ([@BraceSproul](https://twitter.com/BraceSproul)) - For his invaluable contributions to the developer community and his passion for pushing the boundaries of what's possible with generative technologies.
-- [FireCrawl](https://twitter.com/FireCrawl_dev) ([@FireCrawl_dev](https://twitter.com/FireCrawl_dev)) - For providing the powerful web-based data extraction capabilities that enhance the functionality of this application.
-- [Vercel AI](https://twitter.com/Vercel) ([@Vercel](https://twitter.com/Vercel)) - For their brilliant work on the GenUI interface, which provides a seamless and intuitive user experience for interacting with generative AI applications.
+- [Lance Martin](https://twitter.com/RLanceMartin) ([@RLanceMartin](https://twitter.com/RLanceMartin)) - For his tireless efforts in evangelizing and educating developers about the potential of LangChain and AI.
+- [Brace Sproul](https://twitter.com/BraceSproul) ([@BraceSproul](https://twitter.com/BraceSproul)) - For his invaluable contributions to the developer community and his passion for pushing the boundaries of education with generative technologies.
+- [FireCrawl](https://twitter.com/FireCrawl_dev) ([@FireCrawl_dev](https://twitter.com/FireCrawl_dev)) - For providing the powerful web-based data extraction capabilities that enhance the functionality of this application and for the inspiration to create my first LangGraph Tool 🔥
+- [Vercel AI](https://twitter.com/Vercel) ([@Vercel](https://twitter.com/Vercel)) - For their brilliant work on the GenUI Vercel AI Library, which provides a seamless and intuitive user experience for interacting with generative AI applications.
 
-Their collective expertise, passion, and dedication have made this educational experience possible for me. I are truly grateful for their contributions and the impact they have made on the AI developer community. Their efforts have not only my skills but have also inspired and empowered developers around the word to explore the exciting possibilities of generative AI and user interfaces.
+Their collective expertise, passion, and dedication have made this educational experience possible for me. I am truly grateful for their contributions and the impact they have made on the AI developer community. Their efforts have not only enhanced my skills but have also inspired and empowered developers around the word to explore the exciting possibilities of generative AI and intelligent user interfaces with LangChain, Vercel AI and utilities like FireCrawl.
+
+[@Gitmaxd](https://x.com/gitmaxd)
