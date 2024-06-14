@@ -97,6 +97,7 @@ I would like to express sincere gratitude to the following contributors for thei
 - [LangGraph](https://github.com/langchain-ai/langgraph) - For the innovative tool that enables the creation of dynamic and interactive generative UI applications.
 - [Developers Digest](https://twitter.com/Dev__Digest) ([@Dev__Digest](https://twitter.com/Dev__Digest)) - For their dedication to fostering a vibrant developer community and sharing valuable insights.
 - [Harrison Chase](https://twitter.com/hwchase17) ([@hwchase17](https://twitter.com/hwchase17)) - For his significant contributions to the LangChain ecosystem and his unwavering commitment to advancing the field of language processing.
+- - [Jacob Lee](https://twitter.com/@Hacubu) ([@Hacubu](https://twitter.com/Hacubu)) - For lighting a fire under my ass to learn Next/JS with all efforts at LangChain ❤️
 - [Lance Martin](https://twitter.com/RLanceMartin) ([@RLanceMartin](https://twitter.com/RLanceMartin)) - For his tireless efforts in evangelizing and educating developers about the potential of generative AI and UI.
 - [Brace Sproul](https://twitter.com/BraceSproul) ([@BraceSproul](https://twitter.com/BraceSproul)) - For his invaluable contributions to the developer community and his passion for pushing the boundaries of what's possible with generative technologies.
 - [FireCrawl](https://twitter.com/FireCrawl_dev) ([@FireCrawl_dev](https://twitter.com/FireCrawl_dev)) - For providing the powerful web-based data extraction capabilities that enhance the functionality of this application.
