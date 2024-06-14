@@ -2,7 +2,7 @@
 
 ![Generative UI with LangChain Python](./frontend/public/gen_ui_diagram.png)
 
-## Overview
+## Overview (Python LangGraph FireCrawl 🔥 Tool)
 
 This application aims to provide a template for building generative UI applications with LangChain Python.
 It comes pre-built with a few UI features which you can use to play about with gen ui. The UI components are built using [Shadcn](https://ui.shadcn.com/).
@@ -14,9 +14,9 @@ It comes pre-built with a few UI features which you can use to play about with g
 First, clone the repository and install dependencies:
 
 ```bash
-git clone https://github.com/bracesprou/gen-ui-python.git
+git clone https://github.com/Gitmaxd/gen-ui-firecrawl-python.git
 
-cd gen-ui-python
+cd gen-ui-firecrawl-python
 ```
 
 Install dependencies in the `frontend` and `backend` directories:
@@ -49,6 +49,7 @@ Create a new [GitHub PAT (Personal Access Token)](https://github.com/settings/to
 
 [Create a free Geocode account](https://geocode.xyz/api).
 
+The `FIRECRAWL_API_KEY` is required for web based data extraction (this demo). Get your FireCrawl API key and 500 free credits from the [FireCrawl dashboard](https://www.firecrawl.dev/account).
 ```bash
 # ------------------LangSmith tracing------------------
 LANGCHAIN_API_KEY=...
@@ -59,6 +60,7 @@ LANGCHAIN_TRACING_V2=true
 GITHUB_TOKEN=...
 OPENAI_API_KEY=...
 GEOCODE_API_KEY=...
+FIRECRAWL_API_KEY=...
 ```
 
 ### Running the Application
