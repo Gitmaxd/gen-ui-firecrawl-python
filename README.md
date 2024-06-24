@@ -55,7 +55,11 @@ Create a new [GitHub PAT (Personal Access Token)](https://github.com/settings/to
 
 The `FIRECRAWL_API_KEY` is required for web based data extraction (this demo). Get your FireCrawl API key and 500 free credits from the [FireCrawl dashboard](https://www.firecrawl.dev/account).
 
-The `GOOGLE_MAPS_API_KEY` is necessary for generating Google Maps from Location, Address, or GPS Coordinates (this demo). Get your Google Maps API from the [Google Cloud dashboard](https://developers.google.com/maps/documentation/embed/get-api-key).
+The `GOOGLE_MAPS_API_KEY` is necessary for generating Google Maps from Location, Address, GPS Coordinates, and Directions (this demo). Get your Google Maps API from the [Google Cloud dashboard](https://developers.google.com/maps/documentation/embed/get-api-key).
+ - current_location_tool
+ - google_maps_tool
+ - directions_tool
+
 ```bash
 # ------------------LangSmith tracing------------------
 LANGCHAIN_API_KEY=...

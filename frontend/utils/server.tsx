@@ -11,6 +11,9 @@ import { CurrentWebLoading, CurrentWeb } from "@/components/prebuilt/web";
 import { CurrentWeatherLoading, CurrentWeather } from "@/components/prebuilt/weather";
 import { AIMessage } from "@/ai/message";
 import { MapLocationLoading, MapLocation } from "@/components/prebuilt/map";
+import { CurrentLocationLoading, CurrentLocation } from "@/components/prebuilt/CurrentLocation";
+import { DirectionsLoading, Directions } from "@/components/prebuilt/Directions";
+
 
 type ToolComponent = {
   loading: (props?: any) => JSX.Element;
@@ -41,6 +44,14 @@ const TOOL_COMPONENT_MAP: ToolComponentMap = {
   "display_map_location": {
     loading: (props?: any) => <MapLocationLoading {...props} />,
     final: (props?: any) => <MapLocation {...props} />,
+  },
+  "get_current_location": {
+    loading: (props?: any) => <CurrentLocationLoading {...props} />,
+    final: (props?: any) => <CurrentLocation {...props} />,
+  },
+  "get_directions": {
+    loading: (props?: any) => <DirectionsLoading {...props} />,
+    final: (props?: any) => <Directions {...props} />,
   },
 };
 

@@ -13,6 +13,8 @@ from gen_ui_backend.tools.invoice import invoice_parser
 from gen_ui_backend.tools.weather import weather_data
 from gen_ui_backend.tools.firecrawl import get_web_data
 from gen_ui_backend.tools.google_maps_tool import display_map_location
+from gen_ui_backend.tools.current_location_tool import get_current_location
+from gen_ui_backend.tools.directions_tool import get_directions
 
 class GenerativeUIState(TypedDict, total=False):
     input: HumanMessage
@@ -37,7 +39,7 @@ def invoke_model(state: GenerativeUIState, config: RunnableConfig) -> Generative
         ]
     )
     model = ChatOpenAI(model="gpt-4o", temperature=0, streaming=True)
-    tools = [github_repo, invoice_parser, weather_data, get_web_data, display_map_location]
+    tools = [github_repo, invoice_parser, weather_data, get_web_data, display_map_location, get_current_location, get_directions]
     model_with_tools = model.bind_tools(tools)
     chain = initial_prompt | model_with_tools
     result = chain.invoke({"input": state["input"]}, config)
@@ -68,6 +70,8 @@ def invoke_tools(state: GenerativeUIState) -> GenerativeUIState:
         "weather-data": weather_data,
         "get_web_data": get_web_data,
         "display_map_location": display_map_location,
+        "get_current_location": get_current_location,
+        "get_directions": get_directions,
     }
 
     if state["tool_calls"] is not None:
