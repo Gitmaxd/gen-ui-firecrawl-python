@@ -7,6 +7,10 @@
 This application aims to provide a template for building generative UI applications with LangChain Python.
 It comes pre-built with a few UI features which you can use to play about with gen ui. The UI components are built using [Shadcn](https://ui.shadcn.com/).
 
+Example tools are actively being added.  
+*Latest*
+ - Google Maps Location, Address, GPS Coordinates UI Tool
+
 ## Getting Started
 
 ### Installation
@@ -50,6 +54,8 @@ Create a new [GitHub PAT (Personal Access Token)](https://github.com/settings/to
 [Create a free Geocode account](https://geocode.xyz/api).
 
 The `FIRECRAWL_API_KEY` is required for web based data extraction (this demo). Get your FireCrawl API key and 500 free credits from the [FireCrawl dashboard](https://www.firecrawl.dev/account).
+
+The `GOOGLE_MAPS_API_KEY` is necessary for generating Google Maps from Location, Address, or GPS Coordinates (this demo). Get your Google Maps API from the [Google Cloud dashboard](https://developers.google.com/maps/documentation/embed/get-api-key).
 ```bash
 # ------------------LangSmith tracing------------------
 LANGCHAIN_API_KEY=...
@@ -61,6 +67,7 @@ GITHUB_TOKEN=...
 OPENAI_API_KEY=...
 GEOCODE_API_KEY=...
 FIRECRAWL_API_KEY=...
+GOOGLE_MAPS_API_KEY=...
 ```
 
 ### Running the Application
