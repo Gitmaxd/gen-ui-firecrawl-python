@@ -10,6 +10,7 @@ import { InvoiceLoading, Invoice } from "@/components/prebuilt/invoice";
 import { CurrentWebLoading, CurrentWeb } from "@/components/prebuilt/web";
 import { CurrentWeatherLoading, CurrentWeather } from "@/components/prebuilt/weather";
 import { AIMessage } from "@/ai/message";
+import { MapLocationLoading, MapLocation } from "@/components/prebuilt/map";
 
 type ToolComponent = {
   loading: (props?: any) => JSX.Element;
@@ -36,6 +37,10 @@ const TOOL_COMPONENT_MAP: ToolComponentMap = {
   "get_web_data": {
     loading: (props?: any) => <CurrentWebLoading {...props} />,
     final: (props?: any) => <CurrentWeb {...props} />,
+  },
+  "display_map_location": {
+    loading: (props?: any) => <MapLocationLoading {...props} />,
+    final: (props?: any) => <MapLocation {...props} />,
   },
 };
 
